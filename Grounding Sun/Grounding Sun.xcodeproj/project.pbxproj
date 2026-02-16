@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02265DDFCF7A02A6B5EA0008 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A29B05F21FAE9A7E214ED7 /* APIClient.swift */; };
+		03549190C1345FE299C32FC7 /* MockAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FEAECA0FA114D2384E7DB3 /* MockAPIClient.swift */; };
 		23A605942F159B2B005FDE95 /* Grounding_SunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A605932F159B2B005FDE95 /* Grounding_SunApp.swift */; };
 		23A605962F159B2B005FDE95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A605952F159B2B005FDE95 /* ContentView.swift */; };
 		23A605982F159B2C005FDE95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A605972F159B2C005FDE95 /* Assets.xcassets */; };
@@ -14,6 +16,12 @@
 		23A605A62F159B2D005FDE95 /* Grounding_SunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A605A52F159B2D005FDE95 /* Grounding_SunTests.swift */; };
 		23A605B02F159B2D005FDE95 /* Grounding_SunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A605AF2F159B2D005FDE95 /* Grounding_SunUITests.swift */; };
 		23A605B22F159B2D005FDE95 /* Grounding_SunUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A605B12F159B2D005FDE95 /* Grounding_SunUITestsLaunchTests.swift */; };
+		23A605BF2F1FEC03005FDE95 /* AffirmationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A605BE2F1FEC03005FDE95 /* AffirmationStore.swift */; };
+		23A605C12F1FEC48005FDE95 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A605C02F1FEC48005FDE95 /* NotificationManager.swift */; };
+		7152181C5021461EBC7DB732 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6316D7379531667DA696E261 /* AppTheme.swift */; };
+		CA3BF6F2C8EEDFF2E73FB375 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873734D5C3D29CE1D0E3FC3D /* ThemeManager.swift */; };
+		CAE25C68B3CDA5F3E181EF61 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD12566D569E53D8A6A9006 /* APIModels.swift */; };
+		D1B97F42925F635F315E697E /* ProductionAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19657909A5C6828AF5C03003 /* ProductionAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19657909A5C6828AF5C03003 /* ProductionAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProductionAPIClient.swift; sourceTree = "<group>"; };
 		23A605902F159B2B005FDE95 /* Grounding Sun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grounding Sun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A605932F159B2B005FDE95 /* Grounding_SunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grounding_SunApp.swift; sourceTree = "<group>"; };
 		23A605952F159B2B005FDE95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +54,13 @@
 		23A605AB2F159B2D005FDE95 /* Grounding SunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grounding SunUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A605AF2F159B2D005FDE95 /* Grounding_SunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grounding_SunUITests.swift; sourceTree = "<group>"; };
 		23A605B12F159B2D005FDE95 /* Grounding_SunUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grounding_SunUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23A605BE2F1FEC03005FDE95 /* AffirmationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationStore.swift; sourceTree = "<group>"; };
+		23A605C02F1FEC48005FDE95 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		6316D7379531667DA696E261 /* AppTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		83FEAECA0FA114D2384E7DB3 /* MockAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MockAPIClient.swift; sourceTree = "<group>"; };
+		873734D5C3D29CE1D0E3FC3D /* ThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		A3A29B05F21FAE9A7E214ED7 /* APIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		CBD12566D569E53D8A6A9006 /* APIModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23351AFF7DDCA3261609AEC3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
 		23A605872F159B2B005FDE95 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +124,11 @@
 				23A605972F159B2C005FDE95 /* Assets.xcassets */,
 				23A605992F159B2C005FDE95 /* Grounding_Sun.entitlements */,
 				23A6059A2F159B2C005FDE95 /* Preview Content */,
+				23A605BE2F1FEC03005FDE95 /* AffirmationStore.swift */,
+				23A605C02F1FEC48005FDE95 /* NotificationManager.swift */,
+				872C6E65BB1B7B480F2C64A4 /* Services */,
+				DA8D4A5AFC49397BF42E78BB /* Theme */,
+				23351AFF7DDCA3261609AEC3 /* Models */,
 			);
 			path = "Grounding Sun";
 			sourceTree = "<group>";
@@ -127,6 +156,28 @@
 				23A605B12F159B2D005FDE95 /* Grounding_SunUITestsLaunchTests.swift */,
 			);
 			path = "Grounding SunUITests";
+			sourceTree = "<group>";
+		};
+		872C6E65BB1B7B480F2C64A4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A3A29B05F21FAE9A7E214ED7 /* APIClient.swift */,
+				CBD12566D569E53D8A6A9006 /* APIModels.swift */,
+				83FEAECA0FA114D2384E7DB3 /* MockAPIClient.swift */,
+				19657909A5C6828AF5C03003 /* ProductionAPIClient.swift */,
+			);
+			name = Services;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DA8D4A5AFC49397BF42E78BB /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				873734D5C3D29CE1D0E3FC3D /* ThemeManager.swift */,
+				6316D7379531667DA696E261 /* AppTheme.swift */,
+			);
+			name = Theme;
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +311,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				23A605962F159B2B005FDE95 /* ContentView.swift in Sources */,
+				23A605BF2F1FEC03005FDE95 /* AffirmationStore.swift in Sources */,
+				23A605C12F1FEC48005FDE95 /* NotificationManager.swift in Sources */,
 				23A605942F159B2B005FDE95 /* Grounding_SunApp.swift in Sources */,
+				02265DDFCF7A02A6B5EA0008 /* APIClient.swift in Sources */,
+				CAE25C68B3CDA5F3E181EF61 /* APIModels.swift in Sources */,
+				03549190C1345FE299C32FC7 /* MockAPIClient.swift in Sources */,
+				D1B97F42925F635F315E697E /* ProductionAPIClient.swift in Sources */,
+				CA3BF6F2C8EEDFF2E73FB375 /* ThemeManager.swift in Sources */,
+				7152181C5021461EBC7DB732 /* AppTheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
